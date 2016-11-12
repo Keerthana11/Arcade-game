@@ -1,0 +1,37 @@
+/* zocial */
+
+.zocial-github:before {
+    font-family: 'zocial', sans-serif;
+    margin: 5px 10px 5px 25px;
+}
+
+/* main styles */
+
+body {
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    background: url(../images/bg3.jpg);
+}
+
+h1 {
+    padding: 5px 0;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgba(0,0,0,0.5);
+}
+/* class styles */
+
+.lives {
+    color: white;
+    width: 100%;
+    font-size: 1.5em;
+    margin: auto;
+}
