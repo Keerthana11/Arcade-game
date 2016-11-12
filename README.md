@@ -34,7 +34,7 @@ Collect all the **Gems** to their *correct* colored blocks atop the screen, with
 
 
 
-Check out the game [here]() !
+Check out the game [here](https://github.com/Udacity-Keerthana/Arcade-game) !
 
 
 
