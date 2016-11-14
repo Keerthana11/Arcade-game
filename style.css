@@ -1,7 +1,7 @@
 /* zocial */
 
 .zocial-github:before {
-    font-family: 'zocial', sans-serif;
+    font-family: "zocial", sans-serif;
     margin: 5px 10px 5px 25px;
 }
 
@@ -9,7 +9,7 @@
 
 body {
     text-align: center;
-    font-family: 'Cinzel Decorative', cursive;
+    font-family: "Cinzel Decorative", cursive;
     background: url(../images/bg3.jpg);
 }
 
