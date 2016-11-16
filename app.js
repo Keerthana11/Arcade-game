@@ -290,7 +290,7 @@ Gem.prototype.reset = function() {
 Gem.prototype.update = function() {
 
 	"use strict";
-    if (this.y === player.y + 65 && this.x === player.x && player.hold === false) {
+    if (this.y === player.y + 55 && this.x === player.x + 20 && player.hold === false) {
 
         // Changing the player's sprite to be the girl holding the correct color gem
         player.sprite = 'images/char-horn-girl-' + this.color + '-gem.png';
@@ -387,7 +387,7 @@ var player = new Player(303, 380);
 // Set up the possible colors, x-values, and y-values
 var colors = ['red', 'orange', 'green', 'blue', 'purple'];
 var xVals = [0, 101, 202, 303, 404, 505, 606];
-var yValsgem = [285, 205, 125];
+var yValsgem = [275, 195, 115];
 
 // Create a variable for all the possible xy locations
 // This will be used to ensure only one gem occupies
