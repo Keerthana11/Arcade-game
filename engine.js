@@ -157,9 +157,9 @@ var Engine = (function(global) {
                  * we're using them over and over.
                  */
                 if (row === 0) {
-                    ctx.drawImage(Resources.get(topRowImages[col]), col * 101, row * 83);
+                    ctx.drawImage(Resources.get(topRowImages[col]), col * 101, row * 80);
                 } else {
-                    ctx.drawImage(Resources.get(rowImages[row]), col * 101, row * 83);
+                    ctx.drawImage(Resources.get(rowImages[row]), col * 101, row * 80);
                 }
 
             }
