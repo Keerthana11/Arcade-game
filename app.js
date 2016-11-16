@@ -150,7 +150,7 @@ Player.prototype.handleInput = function(dir) {
         // Player is off the bottom of the board
         // Reset player & gem (if the player is holding one)
         if (this.hold === true) {
-            allGems[player.gemIdx].reset();
+            allGems[this.gemIdx].reset();
         }
         this.reset();
 
@@ -177,7 +177,7 @@ Player.prototype.handleInput = function(dir) {
             } else {
 
                 // gem did not match the color, so resetting the game
-                allGems[player.gemIdx].reset();
+                allGems[this.gemIdx].reset();
             }
         }
 
@@ -207,7 +207,7 @@ Player.prototype.handleInput = function(dir) {
         if (this.hold === true) {
             // Player is holding a gem, so find out which gem and
             // reset it to its original position
-            allGems[player.gemIdx].reset();
+            allGems[this.gemIdx].reset();
         }
 
         // Lose a life and reset the player
